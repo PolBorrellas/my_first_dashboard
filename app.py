@@ -1,10 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
-# -*- coding: utf-8 -*-
 ###################################################
 # SETUP
 ###################################################
@@ -17,7 +10,8 @@ import pandas as pd
 import numpy as np
 import json
 
-app = dash.Dash(__name__)  # We start up the server. This first line is the key!
+# We start up the server. This first line is the key!
+app = dash.Dash(__name__)
 server = app.server
 
 # The rest of the code is to design the webpage.
