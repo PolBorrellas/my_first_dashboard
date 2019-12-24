@@ -17,7 +17,8 @@ import pandas as pd
 import numpy as np
 import json
 
-app = dash.Dash()  # We start up the server. This first line is the key!
+app = dash.Dash(__name__)  # We start up the server. This first line is the key!
+server = app.server
 
 # The rest of the code is to design the webpage.
 app.css.append_css({"external_url": "https://codepen.io/chriddyp/pen/bWLwgP.css"})
