@@ -4,4 +4,4 @@ The user can plot the different indicators by country and year.
 
 GitHub URL: https://github.com/PolBorrellas/my_first_dashboard
 
-Heroku URL: 
+Heroku URL: https://polb-first-app.herokuapp.com
