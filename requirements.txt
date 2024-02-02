@@ -1,4 +1,4 @@
-dash==1.6.0  # The core dash backend
+dash==2.15.0  # The core dash backend
 dash-daq==0.2.1  # DAQ components (newly open-sourced!)
 pandas==0.25.3
 gunicorn==20.0.2
